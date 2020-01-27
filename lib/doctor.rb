@@ -10,7 +10,7 @@ def initialize(name)
 # self.class.all << self
 end
 
-def appointment
+def new_appointment
 end
 
 
