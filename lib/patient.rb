@@ -4,7 +4,9 @@ class Patient
      @name = name
  end
 
-def new_appointment
+def new_appointment(doctor, date)
+my_new_appointment = Appointment.new(doctor, date) 
+
 end
 
 
