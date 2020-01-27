@@ -72,7 +72,7 @@ class Doctor
     Appointment.all.select do |appointment|
       appointment.doctor == self
     end
-    
+
   def new_appointment(date, patient)
      appointment = Appointment.new(patient, date, self)
      @appointments << appointment
