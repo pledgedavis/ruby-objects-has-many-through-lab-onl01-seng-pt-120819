@@ -9,7 +9,7 @@ def initialize(date, patient, doctor)
 
 end
 
-def self.all 
+def self.all
 
 
 
