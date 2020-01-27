@@ -4,12 +4,6 @@ class Patient
      @name = name
  end
 
-def
-
-
-
-end
-
 
 
 
