@@ -10,7 +10,7 @@ def self.all
   attr_accessor :name, :appointments, :patient
 
 def initialize(name)
-
+ @appointments = []
 @name = name
 
 @@all << self
